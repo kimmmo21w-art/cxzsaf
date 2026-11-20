@@ -5,7 +5,7 @@ const path = require('path');
 const cron = require('node-cron');
 
 // ====== الإعدادات ======
-const BOT_TOKEN = "8437037698:AAHsiShqh2N3o1Bfw3nAo8FyhPnRbUMdQJQ";
+const BOT_TOKEN = process.env.BOT_TOKEN;
 const FORCE_CHANNEL = "@SAYFINFO";
 const FORCE_CHAT = "@SAYFINFO_CHAT";
 const LOG_CHANNEL = "@SAYFINFO_CHAT"; 
